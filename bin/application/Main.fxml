@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="viewbutton" layoutX="48.0" layoutY="171.0" mnemonicParsing="false" onAction="#ViewInfo" prefHeight="97.0" prefWidth="421.0" text="View Fee Record">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="updatebutton" layoutX="500.0" layoutY="171.0" mnemonicParsing="false" onAction="#UpdateInfo" prefHeight="97.0" prefWidth="446.0" text="Update Fee Record">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbutton" layoutX="500.0" layoutY="293.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="446.0" text="Exit Application">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="164.0" layoutY="24.0" text="Student Fees Record Management System" textFill="#000000b6">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Label>
+      <Separator layoutX="48.0" layoutY="99.0" prefHeight="0.0" prefWidth="904.0" />
+      <Button fx:id="addfee" layoutX="48.0" layoutY="293.0" mnemonicParsing="false" onAction="#AddInfo" prefHeight="28.0" prefWidth="421.0" text="Add New Fee Record">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="deletefee" layoutX="48.0" layoutY="416.0" mnemonicParsing="false" onAction="#ViewInfo" prefHeight="97.0" prefWidth="421.0" text="Delete Fee Record">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="aboutlabel" layoutX="500.0" layoutY="416.0" mnemonicParsing="false" onAction="#About" prefHeight="97.0" prefWidth="446.0" text="About Us">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="loginlabel2" layoutX="702.0" layoutY="114.0" prefHeight="28.0" prefWidth="244.0" textFill="#28a100" />
+      <Button fx:id="manipulatebutton" layoutX="48.0" layoutY="355.0" mnemonicParsing="false" onAction="#ManipulateRecord" prefHeight="51.0" prefWidth="421.0" text="Manipulate Record" />
+   </children>
+</AnchorPane>

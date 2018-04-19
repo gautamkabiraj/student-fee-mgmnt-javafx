@@ -1,0 +1,169 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	    -fx-background-image:url('file:C:/Users/Senpai/workspace/LoginFX/src/img/image3.jpg');
+}
+
+#welcomeid {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#352368;
+}
+
+#addtobutton {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#352368;
+}
+
+#signin {
+}
+
+#signinback {
+    -fx-background-image:url('file:C:/Users/Senpai/workspace/LoginFX/src/img/image3.jpg');
+ }
+
+#view_rec {
+	-fx-background-color:rgb(13,73,200);
+	-fx-text-fill:rgb(255,255,255);
+}
+
+#view_rec:hover {
+	-fx-background-color:#0A358F;
+	-fx-text-fill:#FFF;
+}
+
+#view_rec:pressed {
+	-fx-background-color:#000;
+	-fx-text-fill:#FFF;
+}
+
+#clear_rec {
+	-fx-background-color:rgb(255,15,75);
+	-fx-text-fill:rgb(255,255,255);
+}
+
+#clear_rec:hover {
+	-fx-background-color:#B0002D;
+	-fx-text-fill:#FFF;
+}
+
+#clear_rec:pressed {
+	-fx-background-color:#000;
+	-fx-text-fill:#FFF;
+}
+
+#datalabel {
+	-fx-font-weight: bold;
+	-fx-text-fill:rgb(75,75,75);
+}
+
+/* MAIN VIEW BOTTONS */
+
+#addfee {
+	-fx-text-fill: #FFF;
+	-fx-background-color:rgb(98,37,180);
+}
+
+#addfee:hover {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#401876;
+}
+
+#addfee:pressed {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#000;
+}
+
+#deletefee {
+	-fx-text-fill: #FFF;
+	-fx-background-color:rgb(230,44,11);
+}
+
+#deletefee:hover {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#A31F07;
+}
+
+#deletefee:pressed {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#000;
+}
+
+#aboutlabel {
+	-fx-text-fill: #FFF;
+	-fx-background-color:rgb(88,88,88);
+}
+
+#aboutlabel:hover {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#313131;
+}
+
+#aboutlabel:pressed {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#000;
+}
+
+#loginlabel {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#352368;
+}
+
+#loginlabel:hover {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#442E87;
+}
+
+#loginlabel:pressed {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#000;
+}
+
+
+#viewbutton {
+	-fx-text-fill: #FFF;
+	-fx-background-color:rgb(36,181,72);
+}
+
+#viewbutton:hover {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#187630;
+}
+
+#viewbutton:pressed {
+	-fx-text-fill: #FFF;
+	-fx-background-color:#000;
+}
+
+#updatebutton {
+	-fx-text-fill:#FFF;	
+	-fx-background-color:rgb(38,118,198);	
+	
+}
+
+#updatebutton:hover {
+	-fx-text-fill:#fff;
+	-fx-background-color:#1B548D;	
+	
+}
+
+#updatebutton:pressed {
+	-fx-text-fill:#FFF;	
+	-fx-background-color:#000;
+}
+
+
+#exitbutton {
+	-fx-text-fill:#FFF;
+	-fx-background-color:rgb(247,0,55);
+}
+
+#exitbutton:hover {
+	-fx-text-fill:#FFF;
+	-fx-background-color:#9F0024;
+}
+
+#exitbutton:pressed {
+	-fx-text-fill:#FFF;
+	-fx-background-color:#000;
+}
+

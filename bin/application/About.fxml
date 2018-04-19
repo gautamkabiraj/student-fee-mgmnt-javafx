@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="500.0" maxWidth="500.0" prefHeight="272.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label layoutX="188.0" layoutY="14.0" text="About" textFill="#530e68">
+         <font>
+            <Font name="Segoe UI Light" size="48.0" />
+         </font>
+      </Label>
+      <Separator layoutX="64.0" layoutY="94.0" prefHeight="3.0" prefWidth="388.0" />
+      <Label layoutX="89.0" layoutY="134.0" text="Student Fees Record Management System v1.0.0" />
+      <Label layoutX="151.0" layoutY="162.0" text="Developed by Gautam Kabiraj" />
+      <Label layoutX="149.0" layoutY="223.0" text="2017-2018 (All rights reserved)" />
+      <Label layoutX="132.0" layoutY="193.0" text="Contact: gautamkabiraj@gmail.com" textFill="#020080" />
+   </children>
+</AnchorPane>
